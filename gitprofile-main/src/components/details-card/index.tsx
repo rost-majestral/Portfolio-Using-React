@@ -201,126 +201,126 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                 value={github.username}
                 link={`https://github.com/${github.username}`}
               />
-              {social?.researchGate && (
+              {/* {social?.researchGate && (
                 <ListItem
                   icon={<SiResearchgate />}
                   title="ResearchGate:"
                   value={social.researchGate}
                   link={`https://www.researchgate.net/profile/${social.researchGate}`}
                 />
-              )}
-              {social?.x && (
+              )} */}
+              {/* {social?.x && (
                 <ListItem
                   icon={<SiX />}
                   title="X:"
                   value={social.x}
                   link={`https://x.com/${social.x}`}
                 />
-              )}
-              {social?.mastodon && (
+              )} */}
+              {/* {social?.mastodon && (
                 <ListItem
                   icon={<FaMastodon />}
                   title="Mastodon:"
                   value={getFormattedMastodonValue(social.mastodon, false)}
                   link={getFormattedMastodonValue(social.mastodon, true)}
                 />
-              )}
-              {social?.linkedin && (
+              )} */}
+              {/* {social?.linkedin && (
                 <ListItem
                   icon={<FaLinkedin />}
                   title="LinkedIn:"
                   value={social.linkedin}
                   link={`https://www.linkedin.com/in/${social.linkedin}`}
                 />
-              )}
-              {social?.dribbble && (
+              )} */}
+              {/* {social?.dribbble && (
                 <ListItem
                   icon={<CgDribbble />}
                   title="Dribbble:"
                   value={social.dribbble}
                   link={`https://dribbble.com/${social.dribbble}`}
                 />
-              )}
-              {social?.behance && (
+              )} */}
+              {/* {social?.behance && (
                 <ListItem
                   icon={<FaBehanceSquare />}
                   title="Behance:"
                   value={social.behance}
                   link={`https://www.behance.net/${social.behance}`}
                 />
-              )}
-              {social?.facebook && (
+              )} */}
+              {/* {social?.facebook && (
                 <ListItem
                   icon={<FaFacebook />}
                   title="Facebook:"
                   value={social.facebook}
                   link={`https://www.facebook.com/${social.facebook}`}
                 />
-              )}
-              {social?.instagram && (
+              )} */}
+              {/* {social?.instagram && (
                 <ListItem
                   icon={<AiFillInstagram />}
                   title="Instagram:"
                   value={social.instagram}
                   link={`https://www.instagram.com/${social.instagram}`}
                 />
-              )}
-              {social?.reddit && (
+              )} */}
+              {/* {social?.reddit && (
                 <ListItem
                   icon={<FaReddit />}
                   title="Reddit:"
                   value={social.reddit}
                   link={`https://www.reddit.com/user/${social.reddit}`}
                 />
-              )}
-              {social?.threads && (
+              )} */}
+              {/* {social?.threads && (
                 <ListItem
                   icon={<FaSquareThreads />}
                   title="Threads:"
                   value={social.threads}
                   link={`https://www.threads.net/@${social.threads.replace('@', '')}`}
                 />
-              )}
-              {social?.youtube && (
+              )} */}
+              {/* {social?.youtube && (
                 <ListItem
                   icon={<FaYoutube />}
                   title="YouTube:"
                   value={`@${social.youtube}`}
                   link={`https://www.youtube.com/@${social.youtube}`}
                 />
-              )}
-              {social?.udemy && (
+              )} */}
+              {/* {social?.udemy && (
                 <ListItem
                   icon={<SiUdemy />}
                   title="Udemy:"
                   value={social.udemy}
                   link={`https://www.udemy.com/user/${social.udemy}`}
                 />
-              )}
-              {social?.medium && (
+              )} */}
+              {/* {social?.medium && (
                 <ListItem
                   icon={<AiFillMediumSquare />}
                   title="Medium:"
                   value={social.medium}
                   link={`https://medium.com/@${social.medium}`}
                 />
-              )}
-              {social?.dev && (
+              )} */}
+              {/* {social?.dev && (
                 <ListItem
                   icon={<FaDev />}
                   title="Dev:"
                   value={social.dev}
                   link={`https://dev.to/${social.dev}`}
                 />
-              )}
-              {social?.stackoverflow && (
+              )} */}
+              {/* {social?.stackoverflow && (
                 <ListItem
                   icon={<FaStackOverflow />}
                   title="Stack Overflow:"
                   value={social.stackoverflow.split('/').slice(-1)}
                   link={`https://stackoverflow.com/users/${social.stackoverflow}`}
                 />
-              )}
+              )} */}
               {social?.website && (
                 <ListItem
                   icon={<FaGlobe />}
@@ -335,38 +335,38 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   }
                 />
               )}
-              {social?.telegram && (
+              {/* {social?.telegram && (
                 <ListItem
                   icon={<FaTelegram />}
                   title="Telegram"
                   value={social.telegram}
                   link={`https://t.me/${social.telegram}`}
                 />
-              )}
-              {social?.phone && (
+              )} */}
+              {/* {social?.phone && (
                 <ListItem
                   icon={<RiPhoneFill />}
                   title="Phone:"
                   value={social.phone}
                   link={`tel:${social.phone}`}
                 />
-              )}
-              {social?.email && (
+              )} */}
+              {/* {social?.email && (
                 <ListItem
                   icon={<RiMailFill />}
                   title="Email:"
                   value={social.email}
                   link={`mailto:${social.email}`}
                 />
-              )}
-              {social?.discord && (
+              )} */}
+              {/* {social?.discord && (
                 <ListItem
                   icon={<RiDiscordFill />}
                   title="Discord:"
                   value={social.discord}
                   link={`https://discord.com/app`}
                 />
-              )}
+              )} */}
             </Fragment>
           )}
         </div>
